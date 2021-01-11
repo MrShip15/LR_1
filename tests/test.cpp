@@ -106,8 +106,8 @@ TEST(Student, correct_out_avg) {
 }
 TEST(Student, correct_out_debt) {
   ASSERT_THROW(Student st(json::parse(R"({
-      "name": "Kuspelev Alexei",
-      "group": 33,
+      "name": "Ivanov Ivan",
+      "group": 31,
       "avg": null,
       "debt": 0
 })")),
